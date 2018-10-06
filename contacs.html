@@ -2,52 +2,61 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Контакты</title>
+    <title>Scurdy Cat</title>
     <style>
     body {
         margin: 0%;
         padding: 0%;
     }
-    .hr li {
+    .head-line li {
         display: inline;
         font-size: 20px;
     }
-    .contact {
-        font-size: 20px
+    .img-text {
+        font-size: 20px;
+    }
+    .head-text {
+        font-size: 24px;
     }
     </style>
 </head>
 <body>
-    <div class="head">
-        <div class="logo-text">
-                <Center><h2>"Scurdy Cat"</h2></Center>
-                    <HR WIDTH="100%" SIZE="20" NOSHADE>
-        <div class="head-line">
-            <ul class="hr">
-                <CENTER>
-                <li> <a href="index.html">Главная страница</a></li>
-                <li> <a href="catalog.html">Каталог товаров</a></li>
-                <li> <a href="contacs.html">Контакты</a></li>
-                </CENTER>
-            </ul>
-        </div>
-        <div>
+        <Center><h2 class="head-text">"Scurdy Cat"</h2></Center>
                 <HR WIDTH="100%" SIZE="20" NOSHADE>
-        </div>
-        <div class="contact"> 
-                <center> 
-                Мобильный телефон: +972 55 936 13 97 
-                </center>
-            <div>           
-                <center> Богданов Михаил </center>
-            </div>
-            <div>       
-               <center> Адрес: Беларусь г.Гомель </center>
-            </div>
+    <ul class="head-line">
+        <CENTER>
+            <li> <a href="index.html">Главная страница</a></li>
+            <li> <a href="catalog.html">Каталог товаров</a></li>
+            <li> <a href="contacs.html">Контакты</a></li>
+        </CENTER>
+    </ul>
+                <HR WIDTH="100%" SIZE="20" NOSHADE>>
+    <div class="contact"> 
+        <center> Мобильный телефон: +972 55 936 13 97 </center>
+        <center> Богданов Михаил </center>
+        <center> Адрес: Беларусь г.Гомель </center>
+
                 <HR WIDTH="100%" SIZE="20" NOSHADE>
-        </div>
     </div>
-    </div>
+    <center>
+    <form action="vote">
+            <p>Оцените нашу работу:</p>
+            <br>
+                <input type="radio" name="genre" value="1"> 1
+                <input type="radio" name="genre" value="2"> 2
+                <input type="radio" name="genre" value="3"> 3
+                <input type="radio" name="genre" value="3"> 4
+                <input type="radio" name="genre" value="3"> 5
+        </form>
+    </center>
+                <HR WIDTH="100%" SIZE="20" NOSHADE>
+    <center><form action="" method="POST">
+        <h2>Подпешитесь на нашу рассылку</h2>
+        <p>Пожалуйста введите адрес электронной почты:</p>
+        <input type="email" name="email">
+        <input type="submit" value="Отправить">
+            </form></center>
+                <HR WIDTH="100%" SIZE="20" NOSHADE>
 </body>
 <footer>
       <Center>  &copyВсе права защищены </center>
